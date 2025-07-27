@@ -1,0 +1,56 @@
+{
+  "version": 1.3,
+  "lastUpdated": "2025-07-27T13:36:00-10:00",
+  "diets": {
+    "glutenFree": {
+      "compliant": ["rice", "corn", "soy", "potato", "tapioca", "beans", "sorghum", "quinoa", "millet", "buckwheat", "arrowroot", "amaranth", "teff", "flax", "chia", "yucca", "cassava", "nut flours", "polenta", "grits", "hominy"],
+      "nonCompliant": ["wheat", "einkorn", "durum", "farro", "graham", "kamut", "semolina", "spelt", "barley", "rye", "triticale", "malt", "brewer's yeast", "wheat bran", "wheat germ", "couscous", "bulgur", "orzo", "matzo", "roux", "breadcrumbs"],
+      "requiresVerification": ["oats", "certified gluten-free oats", "modified food starch", "dextrin", "maltodextrin", "seasonings", "spice blends", "soy sauce", "tamari", "teriyaki sauce", "sausages", "hot dogs", "deli meat", "salad dressings", "marinades", "soups", "gravies", "bouillon cubes", "brown rice syrup", "imitation fish", "french fries", "flavored chips", "pickles", "energy bars", "granola", "chocolate", "ice cream", "ketchup", "mustard"]
+    },
+    "dairyFree": {
+      "compliant": ["almond milk", "soy milk", "coconut milk", "oat milk", "rice milk", "hemp milk", "nutritional yeast"],
+      "nonCompliant": ["milk", "cheese", "butter", "butter fat", "buttermilk", "yogurt", "cream", "ice cream", "ghee", "casein", "caseinates", "whey", "whey protein hydrolysate", "lactose", "lactalbumin", "lactoferrin", "lactoglobulin", "curds", "paneer", "rennet casein"],
+      "requiresVerification": ["non-dairy creamer", "bread", "baked goods", "crackers", "chocolate", "dark chocolate", "caramel color", "caramel flavor", "margarine", "shortening", "natural flavors", "artificial butter flavor", "canned tuna", "deli meats", "sausages", "hot dogs", "protein powders", "chewing gum", "broths", "stocks"]
+    },
+    "vegan": {
+      "compliant": ["tofu", "tempeh", "seitan", "agar-agar", "nutritional yeast"],
+      "nonCompliant": ["meat", "poultry", "fish", "seafood", "eggs", "dairy", "honey", "bee pollen", "royal jelly", "gelatin", "isinglass", "carmine", "cochineal", "shellac", "lard", "tallow", "castoreum", "bone char", "rennet"],
+      "requiresVerification": ["sugar", "white sugar", "brown sugar", "natural flavors", "l-cysteine", "vitamin d3", "wine", "beer", "omega-3 fatty acids", "marshmallows", "gummy candy", "casein", "whey", "lecithin", "mono-and-diglycerides", "red food dye"]
+    },
+    "keto": {
+      "compliant": ["meats", "avocado oil", "olive oil", "leafy greens", "cauliflower", "stevia", "erythritol", "monk fruit", "allulose"],
+      "nonCompliant": ["sugar", "honey", "maple syrup", "agave", "high fructose corn syrup", "grains", "starches", "wheat", "rice", "corn", "pasta", "bread", "cereal", "potatoes", "beans", "legumes", "root vegetables", "sweet potatoes", "carrots", "parsnips", "most fruits", "fruit juice"],
+      "requiresVerification": ["dressings", "sauces", "condiments", "ketchup", "barbecue sauce", "processed meats", "sugar-free products", "sugar alcohols", "maltitol", "sorbitol", "xylitol", "maltodextrin", "dextrose", "inulin", "yacon syrup", "aspartame", "sucralose"]
+    },
+    "vegetarian": {
+      "compliant": ["eggs", "dairy", "milk", "cheese", "honey", "butter", "yogurt"],
+      "nonCompliant": ["meat", "poultry", "fish", "seafood", "gelatin", "rennet", "lard", "tallow", "isinglass"],
+      "requiresVerification": ["cheese", "parmesan", "stocks", "broths", "caesar dressing", "marshmallows", "worcestershire sauce", "some wines"]
+    },
+    "paleo": {
+      "compliant": ["meats", "fish", "eggs", "vegetables", "fruits", "nuts", "seeds", "avocado oil", "coconut oil", "olive oil"],
+      "nonCompliant": ["grains", "legumes", "beans", "peanuts", "dairy", "refined sugar", "processed foods", "vegetable oil", "canola oil", "soybean oil"],
+      "requiresVerification": ["potatoes", "sweet potatoes", "honey", "maple syrup", "bacon", "sausages", "dried fruit", "kombucha"]
+    },
+    "aip": {
+      "compliant": ["grass-fed meat", "wild-caught fish", "bone broth", "most vegetables", "turmeric", "ginger", "cinnamon", "mace"],
+      "nonCompliant": ["eggs", "nuts", "seeds", "nightshades", "tomatoes", "potatoes", "eggplants", "peppers", "spices", "paprika", "cayenne", "chili powder", "chocolate", "cacao", "all grains", "all dairy", "all legumes", "processed foods", "industrial seed oils", "food additives", "emulsifiers", "gums"],
+      "requiresVerification": ["black pepper", "green beans", "snow peas", "sugar snap peas", "vanilla extract", "vinegars", "natural flavors", "kombucha"]
+    },
+    "lowFodmap": {
+      "compliant": ["bell peppers", "carrots", "cucumbers", "strawberries", "oranges", "rice", "oats", "maple syrup", "lactose-free milk"],
+      "nonCompliant": ["onions", "garlic", "wheat", "barley", "rye", "beans", "lentils", "chickpeas", "apples", "mangoes", "pears", "honey", "high fructose corn syrup", "cashews", "pistachios", "artichokes", "asparagus"],
+      "requiresVerification": ["broccoli", "sweet corn", "avocado", "ripe bananas", "celery", "brussels sprouts", "almonds", "hazelnuts", "natural flavors", "spices"]
+    },
+    "soyFree": {
+      "compliant": ["most whole foods", "rice", "meats", "vegetables", "fruits"],
+      "nonCompliant": ["soy", "soybeans", "edamame", "tofu", "tempeh", "miso", "soy sauce", "tamari", "soy milk", "soy protein", "soy lecithin"],
+      "requiresVerification": ["vegetable oil", "vegetable broth", "natural flavors", "artificial flavors", "baked goods", "processed foods", "cereals", "asian cuisine", "hydrolyzed vegetable protein (HVP)"]
+    },
+    "nutFree": {
+      "compliant": ["sunflower seeds", "pumpkin seeds", "sesame seeds", "poppy seeds"],
+      "nonCompliant": ["almonds", "walnuts", "cashews", "pecans", "pistachios", "brazil nuts", "hazelnuts", "macadamia nuts", "pine nuts", "peanuts", "nut butters", "nut oils", "nut flours", "marzipan", "gianduja", "nougat", "pralines", "lupin", "lupini"],
+      "requiresVerification": ["cereals", "granola", "cookies", "candies", "chocolate", "ice cream", "baked goods", "pastries", "pesto", "mole sauce", "thai food", "african food", "indian food", "vietnamese food", "chinese food", "natural flavors", "extracts", "salad dressings", "barbecue sauce", "artificial nuts", "shared facility", "may contain traces"]
+    }
+  }
+}
