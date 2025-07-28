@@ -1,6 +1,6 @@
 {
-  "version": 1.3,
-  "lastUpdated": "2025-07-27T13:36:00-10:00",
+  "version": 1.4,
+  "lastUpdated": "2025-07-28T07:00:00-10:00",
   "diets": {
     "glutenFree": {
       "compliant": ["rice", "corn", "soy", "potato", "tapioca", "beans", "sorghum", "quinoa", "millet", "buckwheat", "arrowroot", "amaranth", "teff", "flax", "chia", "yucca", "cassava", "nut flours", "polenta", "grits", "hominy"],
@@ -14,8 +14,11 @@
     },
     "vegan": {
       "compliant": ["tofu", "tempeh", "seitan", "agar-agar", "nutritional yeast"],
-      "nonCompliant": ["meat", "poultry", "fish", "seafood", "eggs", "dairy", "honey", "bee pollen", "royal jelly", "gelatin", "isinglass", "carmine", "cochineal", "shellac", "lard", "tallow", "castoreum", "bone char", "rennet"],
-      "requiresVerification": ["sugar", "white sugar", "brown sugar", "natural flavors", "l-cysteine", "vitamin d3", "wine", "beer", "omega-3 fatty acids", "marshmallows", "gummy candy", "casein", "whey", "lecithin", "mono-and-diglycerides", "red food dye"]
+      "nonCompliant": [
+        "meat", "poultry", "fish", "seafood", "eggs", "honey", "bee pollen", "royal jelly", "gelatin", "isinglass", "carmine", "cochineal", "shellac", "lard", "tallow", "castoreum", "bone char", "rennet",
+        "dairy", "milk", "cheese", "butter", "butter fat", "buttermilk", "yogurt", "cream", "ice cream", "ghee", "casein", "caseinates", "whey", "whey protein hydrolysate", "lactose", "lactalbumin", "lactoferrin", "lactoglobulin", "curds", "paneer"
+      ],
+      "requiresVerification": ["sugar", "white sugar", "brown sugar", "natural flavors", "l-cysteine", "vitamin d3", "wine", "beer", "omega-3 fatty acids", "marshmallows", "gummy candy", "lecithin", "mono-and-diglycerides", "red food dye"]
     },
     "keto": {
       "compliant": ["meats", "avocado oil", "olive oil", "leafy greens", "cauliflower", "stevia", "erythritol", "monk fruit", "allulose"],
